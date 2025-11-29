@@ -59,4 +59,4 @@ This exercise focuses on implementing **12 essential functions** in Java that co
 
 ## 📷 This is the Graph Solution:
 
-![Image_Alt](https://github.com/OfeksoN/I2CS_Ex1/blob/f482e981d72f034331f392a94d9ab98f34c3e2dc/Ex1%20Photo.jpg)
+![Image_Alt](https://github.com/OfeksoN/I2CS_Ex1/blob/4dcadfeba9b3af49e1a9d1ad8b65282fed651531/Ex1%20Photo.jpg)
