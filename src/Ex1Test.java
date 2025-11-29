@@ -283,7 +283,7 @@ class Ex1Test {
     /**
      * Test Linear Poly length
      */
-    public void testLinearLength() { /** Added by me*/
+    public void testLength1() { /** Added by me*/
         double[] p = {0, 1, 0};
         double len = Ex1.length(p, 0, 1, 100);
         assertEquals(Math.sqrt(2), len, 0.01);
@@ -293,8 +293,8 @@ class Ex1Test {
     /**
      * Test Quadratic Poly length
      */
-    public void testQuadraticLength() { /** Added by me*/
-        double[] p = {1, 0, 0}; // y = x^2
+    public void testLength2() { /** Added by me*/
+        double[] p = {0, 0, 1}; // y = x^2
         double len = Ex1.length(p, 0, 1, 100);
         // Exact length of y=x^2 from 0 to 1 is ∫ sqrt(1+(2x)^2) dx ≈ 1.47894
         assertEquals(1.47894, len, 0.01);
