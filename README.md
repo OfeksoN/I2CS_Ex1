@@ -6,7 +6,7 @@
 ## 👋 Welcome to My GitHub!
 
 Hi there!  
-My name is Ofek, and I’m excited to share my journey in Computer Science with you. This repository contains my solution for **Exercise 1** from Ariel University’s 2016 Computer Science course.
+My name is Ofek, and I’m excited to share my journey in Computer Science with you. This repository contains my solution for **Exercise 1** from Ariel University’s 2025 Computer Science course.
 
 Feel free to explore, learn, and even contribute! 🚀  
 This project is part of my academic growth, and I hope it inspires others who are learning programming fundamentals.
