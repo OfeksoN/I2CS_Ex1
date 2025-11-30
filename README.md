@@ -55,6 +55,8 @@ This exercise focuses on implementing **12 essential functions** in Java that co
 12. **Derivative of a polynomial**  
     Returns the derivative of a given polynomial.
 
+13. **Additional Function**
+    Helps calculate Multipication
 ---
 
 ## 📷 This is the Graph Solution:
