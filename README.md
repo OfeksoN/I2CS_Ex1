@@ -14,7 +14,7 @@ This project is part of my academic growth, and I hope it inspires others who ar
 ---
 
 ## 🛠 About This Project
-
+(Most Commits got deleted due to merge issues)
 
 This exercise focuses on implementing **12 essential functions** in Java that cover core programming concepts such as:
 
