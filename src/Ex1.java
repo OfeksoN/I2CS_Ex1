@@ -376,6 +376,14 @@ public class Ex1 {
         return ans;
 
     }
+
+    /**
+     * an additional function to help run mul function
+     * @param current
+     * @param pad
+     * @param p
+     * @return
+     */
     public static double[] mp (double current , int pad , double[] p) {
         double[] m = new double[p.length + pad];
 
