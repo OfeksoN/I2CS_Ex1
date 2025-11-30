@@ -300,5 +300,58 @@ class Ex1Test {
         assertEquals(1.47894, len, 0.01);
     }
 
+
+    @Test
+    /**
+     * Test Quadratic poly from string
+     */
+    public void testFromString1() { /** Added by me*/
+        String poly = "-1.0x^2 +3.0x +2.0";
+        double[] coeffs = Ex1.getPolynomFromString(poly);
+        assertArrayEquals(new double[]{2.0, 3.0, -1.0}, coeffs, 1e-9);
+    }
+
+    @Test
+    /**
+     * Test Linear poly from string
+     */
+    public void testFromString2() { /** Added by me*/
+        String poly = "4.0x +5.0";
+        double[] coeffs = Ex1.getPolynomFromString(poly);
+        assertArrayEquals(new double[]{5.0, 4.0}, coeffs, 1e-9);
+    }
+
+    @Test
+    /**
+     * Test Negative coeffs
+     */
+    public void testFromString3() { /** Added by me*/
+        String poly = "-2.0x^3 -4.0x^2 -6.0x -8.0";
+        double[] coeffs = Ex1.getPolynomFromString(poly);
+        assertArrayEquals(new double[]{-8.0, -6.0, -4.0, -2.0}, coeffs, 1e-9);
+    }
+
+
+    @Test
+    /**
+     * Test Quadratic Poly derivatives
+     */
+    public void testDerivative1() { /** Added by me */
+        double[] po = {1.0, -4.0, 3.0}; // f(x) = 1 - 4x + 3x^2
+        double[] result = Ex1.derivative(po);
+        assertArrayEquals(new double[]{-4.0, 6.0}, result, 1e-9);
+    }
+
+    @Test
+    /**
+     * Test 0 in coeffs
+     */
+    public void testDerivative2() { /** Added by me */
+        double[] po = {0.0, 0.0, 0.0}; // f(x) = 0
+        double[] result = Ex1.derivative(po);
+        assertArrayEquals(new double[]{0.0, 0.0}, result, 1e-9); // derivative = 0
+    }
+
+
 }
 
